@@ -1,0 +1,16 @@
+{
+  "name": "dbgit",
+  "version": "1.0.0",
+  "description": "Git-like version control system for PostgreSQL snapshots",
+  "main": "src/cli.js",
+  "bin": {
+    "dbgit": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "pg": "^8.11.0"
+  }
+}
